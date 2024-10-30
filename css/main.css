@@ -1,0 +1,40 @@
+/* prefix: mrn; */
+
+.mrn-ribbon {
+  position: fixed;
+  z-index: 999;
+  display: block;
+  width: 133px;
+  height: 133px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.mrn-ribbon.mrn-pos-top-left {
+  background-image: url(../image/ribbon-top-left.svg);
+  top: 0;
+  left: 0;
+}
+
+.mrn-ribbon.mrn-pos-top-right {
+  background-image: url(../image/ribbon-top-right.svg);
+  top: 0;
+  right: 0;
+}
+
+.mrn-ribbon.mrn-pos-bottom-left {
+  background-image: url(../image/ribbon-bottom-left.svg);
+  bottom: 0;
+  left: 0;
+}
+
+.mrn-ribbon.mrn-pos-bottom-right {
+  background-image: url(../image/ribbon-bottom-right.svg);
+  bottom: 0;
+  right: 0;
+}
